@@ -1,0 +1,69 @@
+.d-flex {
+    display: flex;
+}
+.navbar-default{
+    border-radius: 0px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.navbar-header{
+    margin-left: 15px;
+    height: 65px; overflow: inherit;
+}
+.navbar-biz li a{
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 26px 30px 0px;
+}
+.d-none {display: none !important}
+.navbar-right{margin-right: 55px!important;opacity: 1;}
+.navbar-right li a{
+    font-size: 12px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-color: #333;
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+    padding: 0.7em 1.6em;
+    background-color: #ED9C28;
+    margin-top: 1em;
+    border-radius: 20em;
+    backface-visibility: hidden;
+    color: #FFF!important;
+}
+.navbar-right li a:hover{
+    background-color: #ED9C28!important;
+}
+.ql-editor {
+    height: 500px !important;
+}
+#Cpanel{background-color:#ffffff; height: auto; padding: 50px 0;}
+	#Cpanel input[type="text"]{width: 100%!important;}
+    #Cpanel input[type="file"]{width: 100%!important;}
+    #Cpanel select{width: 100%!important;}
+    #Cpanel textarea{width: 100%!important;}
+
+    #Cpanel input[type="checkbox"]{width: 10%!important;}
+.tabla_control{height: 300px!important; overflow: auto;}
+.tabla-prensa, .tabla-novedades{height: 1000px; overflow: auto; }
+.registro{margin-top: 100px;}
+#datetimepicker{width: 100%!important;}
+/*-----------------------------------*/
+.aviso_session{width: 400px!important; margin:50px auto!important;}
+.ingresar p, .ingresar a{font-weight: bold; color:#ffffff;}
+.aviso_session{width: 100%; text-align: center; margin: 40px 0; font-weight: bold;}
+#aviso_registro{width:350px; height: auto; color: #EE8855; position: fixed; top:0; left: 500px; z-index: 1000; background-color: #ffffff; text-align: center;}
+#login_container{display:none; width: 100%; height:100vh; z-index:2000; position:fixed; top: 0; left: 0; text-align: center; background: rgba(0,0,0, 0.5);}
+.login{background-color:#ffffff; width:230px; padding:15px; font-weight:bold; color:gray; border:1px solid #CCC; text-align: center; position: absolute; top:20px; left:40%; display: none;  z-index:1500;}
+.login a{color:#CCC;text-decoration:none;}
+.login form input{ width:100%; margin: 0!important;}
+/* Footer */
+#tf-footer {height: auto;padding: 3% 0 2% 0;background-color: #ED9C28;color: #ffffff;}
+ul.social li a i {font-size: 18px;background: transparent;width: 32px;height: 32px;padding: 7px 0;text-align: center;border-radius: 50%;border-top-left-radius: 0; border: 1px solid transparent;color: #ffffff;transition: all 0.5s;}
+.text-footer{color:#fff!important;}
+ul.social li a i:hover { border-color: #ffffff }
+.btn, .form-control, .team-socials i {border-radius: 0px !important;}
+.form-group {margin: 0 auto;margin-bottom: 15px;width: 75%;}
+input[type="submit"]{width: 100%;}
+select{width: 100%!important;}
