@@ -166,7 +166,7 @@ require_once("cpanel/class-cadena.php");
 									<li role="presentation"> <!-- feature tab menu #4 -->
 		                                <a href="novedades-personalizadas.php" aria-controls="f5" >
 		                                    <span class="fa fa-newspaper-o"></span>
-		                                    NOVEDADES PERSONALIZADAS<br><small>Personalized news</small>
+		                                    SERVICIOS PERSONALIZADOS<br><small>Personalized services</small>
 		                                </a>
 		                            </li>
 		                            <br><br>

@@ -28,7 +28,7 @@ require_once("cpanel/class-cadena.php");
 								<li><a href="personalized-news.php">Inglés</a></li>
 							</ul>
 						</nav><br>
-	                <h2>NOVEDADES<span class="highlight"><strong> PERSONALIZADAS</strong></span></h2>
+	                <h2>SERVICIOS<span class="highlight"><strong> PERSONALIZADOS</strong></span></h2>
 	                <h5><em>Paseos Privados, Paseos Personalizados</em></h5>
 	                <div class="fancy"><span><img src="img/logo-xs.png" alt="..."></span></div>
 	            </div>

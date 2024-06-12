@@ -28,7 +28,7 @@ require_once("cpanel/class-cadena.php");
 								<li><a href="personalized-news.php">Inglés</a></li>
 							</ul>
 						</nav><br>
-	                <h2>PERSONALIZED<span class="highlight"><strong> NEWS</strong></span></h2>
+	                <h2>PERSONALIZED<span class="highlight"><strong> SERVICES</strong></span></h2>
 	                <h5><em>Private Tours, Custom Tours</em></h5>
 	                <div class="fancy"><span><img src="img/logo-xs.png" alt="..."></span></div>
 	            </div>

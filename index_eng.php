@@ -166,7 +166,7 @@ We organize private tours (with or without transportation ) that make interestin
 									<li role="presentation"> <!-- feature tab menu #4 -->
 		                                <a href="personalized-news.php" aria-controls="f5" >
 		                                    <span class="fa fa-newspaper-o"></span>
-		                                    PERSONALIZED NEWS<br><small>Novedades personalizadas</small>
+		                                    PERSONALIZED SERVICES<br><small>Servicios personalizados</small>
 		                                </a>
 		                            </li>
 		                            <br><br>
