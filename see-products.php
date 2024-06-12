@@ -29,9 +29,8 @@ require_once("cpanel/class-6.php");
 								if(isset($_GET['nid'])){
 					            	$news = new Producto();
 					            	$result= $news->getrowID($_GET['nid']);
-					            	$num_row = mysql_num_rows($result);
-					            	if($num_row>0){
-					            		while ($row=mysql_fetch_array($result)){
+					            	if($result->num_rows > 0){
+					            		while ($row=$result->fetch_array()){
 											echo'<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 														<div class="pic_car">
 															<img src="galerias/productos/'.$row['atributo3'].'" class="img-responsive">
@@ -74,10 +73,9 @@ require_once("cpanel/class-6.php");
 				        		</div>
 				        		<?php
 					            	$news = new Producto();
-					            	$result= $news->getProdMini();
-					            	$num_row = mysql_num_rows($result);
-					            	if($num_row>0){
-					            		while ($row=mysql_fetch_array($result)){
+					            	$result = $news->getProdMini();
+					            	if($result->num_rows > 0){
+					            		while ($row = $result->fetch_array()){
 					            			echo'<div class="col-xs-12 separacion">
 									        		<div class="item">
 														<div class="pic">

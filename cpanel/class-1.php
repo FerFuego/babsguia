@@ -11,11 +11,11 @@ class Link{
 	var $atributo8;
 	var $atributo9;
 
-	function Link($nro=0){
+	public function __construct ($nro=0){
 		if($nro!=0){
 			$obj_prod = new sQuery();
 			$resultado = $obj_prod->executeQuery("SELECT * FROM links WHERE id_link=$nro");
-			$fila=mysql_fetch_assoc($resultado);
+			$fila = mysqli_fetch_assoc($resultado);
 			$this->id_link=$fila['id_link'];
 			$this->atributo1=$fila['atributo1'];
 			$this->atributo2=$fila['atributo2'];

@@ -29,9 +29,8 @@ require_once("cpanel/class-2.php");
 								if(isset($_GET['nid'])):
 					            	$news = new Noticia();
 					            	$result= $news->getrowID($_GET['nid']);
-					            	$num_row = mysql_num_rows($result);
-					            	if($num_row>0) :
-					            		while ($row=mysql_fetch_array($result)) : ?>
+					            	if($result->num_rows > 0) :
+					            		while ($row=$result->fetch_array()) : ?>
 											<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 												<div class="pic_car">
 													<?php if ($row['atributo3']) : ?>

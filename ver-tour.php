@@ -29,9 +29,8 @@ require_once("cpanel/class-4.php");
 								if(isset($_GET['nid'])){
 					            	$news = new Tour();
 					            	$result= $news->getrowID($_GET['nid']);
-					            	$num_row = mysql_num_rows($result);
-					            	if($num_row>0){
-					            		while ($row=mysql_fetch_array($result)){
+					            	if($result->num_rows > 0){
+					            		while ($row = $result->fetch_array()){
 					            			$dir = $row['atributo3'];
 											$array = glob("$dir{*.gif,*.JPG,*.jpg,*.jpeg,*.png}", GLOB_BRACE); 
 											$resultado = count($array);
@@ -108,9 +107,8 @@ require_once("cpanel/class-4.php");
 				        		<?php
 					            	$news = new Tour();
 					            	$result= $news->getMini();
-					            	$num_row = mysql_num_rows($result);
-					            	if($num_row>0){
-					            		while ($row=mysql_fetch_array($result)){
+					            	if($result->num_rows > 0){
+					            		while ($row = $result->fetch_array()){
 					            			$dir = $row['atributo3'];
 											$array = glob("$dir{*.gif,*.JPG,*.jpg,*.jpeg,*.png}", GLOB_BRACE);
 					            			echo'<div class="col-xs-12 separacion">

@@ -42,9 +42,8 @@ require_once("cpanel/class-6.php");
 	                    }//clase que limita los caracteres mostrados para que no deforme el contenedor.
 		            	$news = new Producto();
 		            	$result= $news->get_eng();
-		            	$num_row = mysql_num_rows($result);
-		            	if($num_row>0){
-		            		while ($row=mysql_fetch_array($result)){
+		            	if($result->num_rows > 0){
+							while ($row=$result->fetch_array()){
 					            echo'<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 arreglo_altura">
 						        		<div class="item">
 											<div class="pic">

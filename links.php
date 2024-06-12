@@ -37,9 +37,8 @@ require_once("cpanel/class-1.php");
 				        	<?php
 				        		$date = new Link();
 				        		$result = $date->get();
-				        		$num = mysql_num_rows($result);
-				        		if($num>0){
-				        			while ($row= mysql_fetch_array($result)) {
+				        		if($result->num_rows > 0){
+									while ($row=$result->fetch_array()){
 				        			print'<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 titulolink">
 							        		<div class="media process"> 
 						                        <div class="media-right media-middle">

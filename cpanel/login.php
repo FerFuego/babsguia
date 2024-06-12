@@ -1,38 +1,32 @@
 <?php
-SESSION_START();
+session_start();
 require_once('conexion.php');
-if($_POST['usuario']=="" OR $_POST['contrasena']==""){
+
+if ($_POST['usuario'] == "" or $_POST['contrasena'] == "") {
 	$resultado = "<p>Complete todos los campos</p>";
 	echo $resultado;
-}else{
+} else {
 	$username = $_POST['usuario'];
 	$password = $_POST['contrasena'];
-	$passwords = md5($password);
 
-	$datos= new login($username, $passwords);
-	$datos=$datos->loginDB();
-	$count=mysql_num_rows($datos);
-	if ($count != 0 || $count != ''){
-			while ($row = mysql_fetch_array($datos)) {
-				$_SESSION['idu'] = $row['idusuarios'];
+	$datos = new login($username, $password);
+	$users = $datos->loginDB();
+	
+	if ($users->num_rows > 0) {
+		while ($row = $users->fetch_array()) {
+			$_SESSION['idu'] 	 = $row['idusuarios'];
+			$_SESSION['usuario'] = $username;
+			$_SESSION['logino']	 = "yes";
+
+			if ($_SESSION['idu'] == 1) {
+				$_SESSION['id_admin'] = 1;
+				$_SESSION['nombre']	= $row['usuario'];
+				echo '<script>location.href="cpanel.php?categ=general";</script>';
 			}
-			if($count==1){
-					$_SESSION['usuario'] = $username;
-					$_SESSION['logino'] = "yes";
-					if($_SESSION['idu']==1){
-						$_SESSION['id_admin']=1;
-						$_SESSION['nombre'] =$row['usuario'];
-						echo'<script>location.href="cpanel.php?categ=general";</script>';
-					}
-					$resultado = "Ingresando...";
-					echo $resultado;
-			}else {
-				$resultado = "Usuario o Contraseña incorrecto";
-				echo $resultado;
-			}
-	}else{
-			$resultado = "Usuario o Contraseña incorrecto";
-			echo $resultado;
+
+			echo "Ingresando...";
 		}
+	} else {
+		echo "Usuario o Contraseña incorrecto";
+	}
 }
-?>

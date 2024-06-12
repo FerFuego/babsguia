@@ -376,9 +376,9 @@ require_once("cpanel/class-cadena.php");
 			                <div class="row grid-layout mt-5"> 
 			                	<?php
 					            	$news = new Noticia();
-					            	$result= $news->getInverse();
+					            	$result = $news->getInverse();
 					            	if($result->num_rows > 0){
-					            		while ($row=$result->fetch_array()){
+					            		while ($row = $result->fetch_array()){
 								            echo'<div class="col-md-3"> 
 							                        <div class="post-wrap"> 
 														<a href="ver-noticia.php?nid='.$row['id_noticia'].'">
@@ -419,7 +419,7 @@ require_once("cpanel/class-cadena.php");
 				        		$date = new Link();
 				        		$result = $date->getLimit();
 				        		if($result->num_rows > 0){
-				        			while ($row=$result->fetch_array()){
+				        			while ($row = $result->fetch_array()){
 				        			print'<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 titulolink">
 							        		<div class="media process"> 
 						                        <div class="media-right media-middle">

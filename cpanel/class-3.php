@@ -11,11 +11,11 @@ class Servicio{
 	var $atributo8;
 	var $atributo9;
 
-	function Servicio($nro=0){
+	public function __construct($nro=0){
 		if($nro!=0){
 			$obj_prod = new sQuery();
 			$resultado = $obj_prod->executeQuery("SELECT * FROM servicios WHERE id_servicios=$nro");
-			$fila=mysql_fetch_assoc($resultado);
+			$fila = mysqli_fetch_assoc($resultado);
 			$this->id_servicios=$fila['id_servicios'];
 			$this->atributo1=$fila['atributo1'];
 			$this->atributo2=$fila['atributo2'];

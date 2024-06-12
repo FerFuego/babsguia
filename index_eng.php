@@ -379,7 +379,7 @@ We organize private tours (with or without transportation ) that make interestin
 					            	$news = new Noticia();
 					            	$result= $news->get_eng_Inverse();
 					            	if($result->num_rows > 0){
-					            		while ($row=$result->fetch_array()){
+					            		while ($row = $result->fetch_array()){
 								            echo'<div class="col-md-4"> 
 							                        <div class="post-wrap"> 
 														<a href="ver-noticia.php?nid='.$row['id_noticia'].'">
@@ -420,7 +420,7 @@ We organize private tours (with or without transportation ) that make interestin
 				        		$date = new Link();
 				        		$result = $date->getengLimit();
 				        		if($result->num_rows > 0){
-				        			while ($row=$result->fetch_array()){
+				        			while ($row = $result->fetch_array()){
 				        			print'<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 titulolink">
 							        		<div class="media process"> 
 						                        <div class="media-right media-middle">
