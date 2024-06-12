@@ -163,6 +163,12 @@ require_once("cpanel/class-cadena.php");
 		                                     VER NUESTROS TOURS PRIVADOS<br><small>See our private tours</small>
 		                                </a>
 		                            </li>
+									<li role="presentation"> <!-- feature tab menu #4 -->
+		                                <a href="novedades-personalizadas.php" aria-controls="f5" >
+		                                    <span class="fa fa-newspaper-o"></span>
+		                                    NOVEDADES PERSONALIZADAS<br><small>Personalized news</small>
+		                                </a>
+		                            </li>
 		                            <br><br>
 		                        </ul>
 		                    </div>
@@ -439,6 +445,22 @@ require_once("cpanel/class-cadena.php");
 				        <div class="text-center">
 			                <a href="links.php" class="btn btn-primary tf-btn color">Ver todos</a>
 			            </div>  
+			        </div>
+			    </div>
+		</section>
+
+		<section id="cd-placeholder-6" class="cd-section cd-container">
+			   <div id="tf-blog">
+			        <div class="container">
+			            <div class="section-header">
+			                <h2>Visita nuestro <span class="highlight"><strong>Instagram</strong></span></h2>
+			                <div class="fancy"><span><img src="img/logo-xs.png" alt="..."></span></div>
+			            </div>
+			        </div>
+			        <div class="container">
+				        <div class="row instagram">
+							<iframe width='100%' height='1000' src='https://www.instagram.com/babsguia/embed/' frameborder='0'></iframe>
+				        </div>
 			        </div>
 			    </div>
 		</section>

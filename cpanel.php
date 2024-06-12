@@ -17,6 +17,7 @@ require_once('cpanel/class-3.php');
 require_once('cpanel/class-4.php');
 require_once('cpanel/class-5.php');
 require_once('cpanel/class-6.php');
+require_once('cpanel/class-7.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -55,6 +56,9 @@ require_once('cpanel/class-6.php');
 						require_once("cpanel/5.php");
 						break;
 						//case '6': require_once("cpanel/6.php");	break;
+					case '7':
+						require_once("cpanel/7.php");
+						break;
 					default:
 						require_once("cpanel/general.php");
 						break;

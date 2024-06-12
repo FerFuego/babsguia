@@ -163,6 +163,12 @@ We organize private tours (with or without transportation ) that make interestin
 		                                     SEE OUR PRIVATE TOURS<br><small>ver nuestros tours privados</small>
 		                                </a>
 		                            </li>
+									<li role="presentation"> <!-- feature tab menu #4 -->
+		                                <a href="personalized-news.php" aria-controls="f5" >
+		                                    <span class="fa fa-newspaper-o"></span>
+		                                    PERSONALIZED NEWS<br><small>Novedades personalizadas</small>
+		                                </a>
+		                            </li>
 		                            <br><br>
 		                        </ul>
 		                    </div>
@@ -442,6 +448,21 @@ We organize private tours (with or without transportation ) that make interestin
 			            </div>  
 			        </div>
 			    </div>
+		</section>
+		<section id="cd-placeholder-6" class="cd-section cd-container">
+			<div id="tf-blog">
+				<div class="container">
+					<div class="section-header">
+						<h2>Visit our <span class="highlight"><strong>Instagram</strong></span></h2>
+						<div class="fancy"><span><img src="img/logo-xs.png" alt="..."></span></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row instagram">
+						<iframe width='100%' height='1000' src='https://www.instagram.com/babsguia/embed/' frameborder='0'></iframe>
+					</div>
+				</div>
+			</div>
 		</section>
 	</main>
 <footer>

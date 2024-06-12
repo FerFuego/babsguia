@@ -1,6 +1,6 @@
 <div id="tf-footer">
     <div class="container"><!-- container -->
-        <p class="pull-left text-footer">© Copyright 2023 | All rights reserved
+        <p class="pull-left text-footer">© Copyright <?php echo date("Y"); ?> | All rights reserved
             <br>BABSGUIA of Bárbara Bossi file N° RL-2016-27288294 - DGDYCOF Government of the City of Buenos Aires
         </p> <!-- copyright text here-->
         <ul class="list-inline social pull-right">

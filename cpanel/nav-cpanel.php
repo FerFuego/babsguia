@@ -14,7 +14,8 @@
 		<li <?php if(isset($_GET['categ'])&&$_GET['categ']=="2"){echo 'class="active"';}?>><a href="cpanel.php?categ=2">Tours</a></li>
 		<li <?php if(isset($_GET['categ'])&&$_GET['categ']=="3"){echo 'class="active"';}?>><a href="cpanel.php?categ=3">Novedades</a></li>
     <li <?php if(isset($_GET['categ'])&&$_GET['categ']=="4"){echo 'class="active"';}?>><a href="cpanel.php?categ=4">Productos</a></li>
-    <!--<li <?php//if(isset($_GET['categ'])&&$_GET['categ']=="5"){echo 'class="active"';}?>><a href="cpanel.php?categ=5">Cursos</a></li>-->
+    <li <?php if(isset($_GET['categ'])&&$_GET['categ']=="7"){echo 'class="active"';}?>><a href="cpanel.php?categ=7">Personalizadas</a></li>
+    <!--<li <?php //if(isset($_GET['categ'])&&$_GET['categ']=="5"){echo 'class="active"';}?>><a href="cpanel.php?categ=5">Cursos</a></li>-->
     <!--<li <?php //if(isset($_GET['categ'])&&$_GET['categ']=="6"){echo 'class="active"';}?>><a href="cpanel.php?categ=6">Recursos Didácticos</a></li>-->
     <li class="dropdown">
     <?php
