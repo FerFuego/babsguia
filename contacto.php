@@ -34,8 +34,8 @@
 	            		<ul>
 	            			<li><label>E-MAIL:</label> turismo@babsguia.com</li><br>
 	            			<li><label>MSN:</label> b_guia@hotmail.com</li><br>
-	            			<li><label>TELÉFONO:</label> (54 11) 3981-4501<br>
-						Lunes a Viernes de 10 a 13hs. y 15:30 a 18:30hs.</li><br>
+	            			<li><label>TELÉFONO:</label> (54 11) 3981-4501</li><br>
+							<li><label>HORARIO: </label> Lunes a Viernes de 10 a 13hs. y 15:30 a 18:30hs.</li><br>
 	            			<li><label>FAX:</label> (54 11) 4553 2390</li><br>
 	            			<li><label>FORMULARIO:</label> Complete la siguiente solicitud de contacto.</li>
 	            		</ul>
@@ -75,6 +75,9 @@
 							  	<dt class="text-warning">Cómo conoció a babsguia?:</dt>
 							  	<dd><input type="text" name="como" class="form-control" required></dd>	
 							  	<input type="hidden" name="verif" class="form-control">
+							</dl>
+							<dl class="dl-horizontal">
+								<dd><div class="g-recaptcha" data-sitekey="6LfqdvcpAAAAANT3xmFOcyGeuQRSgweX0L3gxvYH"></div></dd>
 							</dl>
 							<dl class="dl-horizontal">
 								<dt></dt>

@@ -71,11 +71,14 @@ require_once("cpanel/class-7.php");
 													<label>Nombre y Apellido: </label><input type="text" name="nombre" class="form-control" required>
 													<label>Email: </label><input type="text" name="email" class="form-control" required>
 													<label>Teléfono: </label><input type="text" name="telefono" class="form-control" required>
-													<input type="hidden" name="id" class="form-control" value="'.$row['id_productos'].'" required>
+													<input type="hidden" name="id" class="form-control" value="<?php echo $row['id_nuevo']; ?>" required>
 													<input type="hidden" name="tipo" class="form-control" value="Producto" required>
 													<label>Título: </label><input type="text" name="titulo" class="form-control" value="<?php echo $row['atributo2']; ?>" READONLY>
 													<label>Mensaje: </label><textarea name="mensaje" class="form-control"></textarea>
 													<input type="hidden" name="verif" class="form-control">
+													<dl class="dl-horizontal">
+														<div class="g-recaptcha" data-sitekey="6LfqdvcpAAAAANT3xmFOcyGeuQRSgweX0L3gxvYH"></div>
+													</dl>
 													<input type="submit" value="Enviar Consulta" class="btn btn-info">
 												</form>
 											</div>

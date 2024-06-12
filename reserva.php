@@ -74,6 +74,9 @@
 							  	<dd><input type="text" name="tel-emerg" class="form-control" required></dd>	
 							</dl>
 							<dl class="dl-horizontal">
+								<div class="g-recaptcha" data-sitekey="6LfqdvcpAAAAANT3xmFOcyGeuQRSgweX0L3gxvYH"></div>
+							</dl>
+							<dl class="dl-horizontal">
 								<dt></dt>
 								<dd><input type="submit" class="btn btn-warning" value="Enviar Formulario"></dt>
 							</dl>	

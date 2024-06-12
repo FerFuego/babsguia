@@ -62,6 +62,24 @@ require_once("cpanel/class-7.php");
 													<?php echo $row['atributo4']; ?>
 												</div>
 												<hr>
+												<br><br><a href='javascript:;' onClick='mostrarconsulta()' class='btn btn-info'>Ask about this</a>
+											</div>
+											<div id="consultarapida">
+												<a class="boxclose" id="boxclose" onClick="ocultarconsulta()"><img src="img/delete.png"></a>
+												<form id="form_consultarapida" onSubmit="ocultarconsulta()" action="php/send-consultarapida.php" method="POST">
+													<label>Name y Lastname: </label><input type="text" name="nombre" class="form-control" required>
+													<label>Email: </label><input type="text" name="email" class="form-control" required>
+													<label>Phone: </label><input type="text" name="telefono" class="form-control" required>
+													<input type="hidden" name="id" class="form-control" value="<?php echo $row['id_nuevo']; ?>" required>
+													<input type="hidden" name="tipo" class="form-control" value="Producto" required>
+													<label>Title: </label><input type="text" name="titulo" class="form-control" value="<?php echo $row['atributo2']; ?>" READONLY>
+													<label>Message: </label><textarea name="mensaje" class="form-control"></textarea>
+													<input type="hidden" name="verif" class="form-control">
+													<dl class="dl-horizontal">
+														<div class="g-recaptcha" data-sitekey="6LfqdvcpAAAAANT3xmFOcyGeuQRSgweX0L3gxvYH"></div>
+													</dl>
+													<input type="submit" value="Send Form " class="btn btn-info">
+												</form>
 											</div>
 					            		<?php endwhile; ?>
 					               	<?php else : ?>

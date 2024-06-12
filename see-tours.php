@@ -90,6 +90,9 @@ require_once("cpanel/class-4.php");
 															<label>Title: </label><input type="text" name="titulo" class="form-control" value="'.$row['atributo2'].'" READONLY>
 															<label>Message: </label><textarea name="mensaje" class="form-control"></textarea>
 															<input type="hidden" name="verif" class="form-control">
+															<dl class="dl-horizontal">
+																<div class="g-recaptcha" data-sitekey="6LfqdvcpAAAAANT3xmFOcyGeuQRSgweX0L3gxvYH"></div>
+															</dl>
 															<input type="submit" value="Send Form" class="btn btn-info">
 														</form>
 													</div>';

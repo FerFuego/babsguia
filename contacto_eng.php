@@ -34,8 +34,8 @@
 	            		<ul>
 	            			<li><label>E-MAIL:</label> turismo@babsguia.com</li><br>
 	            			<li><label>MSN:</label> b_guia@hotmail.com</li><br>
-	            			<li><label>PHONE:</label> (54 11) 3981-4501<br>
-	            			Monday through Friday 10 am to 13 pm. and 15:30 pm to 18:30 pm</li><br>
+	            			<li><label>PHONE:</label> (54 11) 3981-4501</li><br>
+	            			<li><label>SCHEDULE:</label> Monday through Friday 10 am to 13 pm. and 15:30 pm to 18:30 pm</li><br>
 	            			<li><label>FAX:</label> (54 11) 4553 2390</li><br>
 	            			<li><label>FORM:</label> Complete the following contact request.</li>
 	            		</ul>
@@ -75,6 +75,9 @@
 							  	<dt class="text-warning">How he met babsguia?:</dt>
 							  	<dd><input type="text" name="como" class="form-control" required></dd>	
 							  	<input type="hidden" name="verif" class="form-control">
+							</dl>
+							<dl class="dl-horizontal">
+								<dd><div class="g-recaptcha" data-sitekey="6LfqdvcpAAAAANT3xmFOcyGeuQRSgweX0L3gxvYH"></div></dd>
 							</dl>
 							<dl class="dl-horizontal">
 								<dt></dt>

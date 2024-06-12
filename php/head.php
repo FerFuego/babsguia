@@ -25,3 +25,5 @@
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/personalizado.css">
 <script type="text/javascript" src="js/modernizr.js"></script>
+<!-- Google Captcha -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>

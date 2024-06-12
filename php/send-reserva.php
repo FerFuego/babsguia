@@ -7,6 +7,16 @@ if($_POST['nombre']=="" OR $_POST['email']=="" OR $_POST['mensaje']==""){
 		//es spam
 		exit();
 	}
+
+	$recaptcha = (isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : null);
+    $request = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LfqdvcpAAAAACv5r6D39wi5P6HRlJJ-ym53HoKR&response=".$recaptcha."&remoteip=".$_SERVER['REMOTE_ADDR']);
+    $response = json_decode($request);
+    
+    if ( $response->success === false ) {
+        echo 'Captcha Incorrecto!';
+        die();
+    }
+	
 	$nombre = $_POST['nombre'];
 	$nombre = stripslashes($nombre);
 	$email = $_POST['email'];
