@@ -397,13 +397,15 @@ if (isset($_GET['me'])) {
 							. '<td><b>#</b></td>'
 							. '<td><b>Fecha</b></td>'
 							. '<td><b>Título</b></td>'
-							. '<td></td>'
-							. '<td></td></tr>';
+							. '<td><b>Ver</b></td>'
+							. '<td><b>Editar</b></td>'
+							. '<td><b>Eliminar</b></td></tr>';
 						while ($row = $date->fetch_array()){
 							print '<tr>'
 								. '<td>' . $row['id_noticia'] . '</td>'
 								. '<td>' . $row['atributo1'] . '</td>'
 								. '<td>' . $row['atributo2'] . '</td>'
+								. '<td><a href="ver-noticia.php?nid=' . $row['id_noticia'] . '" target="_blank" style="color:orange; text-decoration:none;"><img src="img/ver.png" title="Ver"></a></td>'
 								. '<td><a href="cpanel.php?categ=3&me=' . $row['id_noticia'] . '" style="color:orange; text-decoration:none;"><img src="img/edit.png" title="Modificar"></a></td>'
 								. '<td><a href="cpanel.php?categ=3&ee=' . $row['id_noticia'] . '" style="color:red; text-decoration:none;"><img src="img/trash.png" title="Eliminar"></a></td>'
 								. '</tr>';

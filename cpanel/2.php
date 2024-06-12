@@ -295,8 +295,9 @@ if (isset($_GET['mu'])) {
 							. '<td><b>Grupo</b></td>'
 							. '<td><b>Precio</b></td>'
 							. '<td><b>Idioma</b></td>'
-							. '<td></td>'
-							. '<td></td></tr>';
+							. '<td><b>Ver</b></td>'
+							. '<td><b>Editar</b></td>'
+							. '<td><b>Eliminar</b></td></tr>';
 						while ($row = $date->fetch_array()){
 							print '<tr>'
 								. '<td>' . $row['id_tour'] . '</td>'
@@ -305,6 +306,7 @@ if (isset($_GET['mu'])) {
 								. '<td>' . $row['atributo17'] . '</td>'
 								. '<td>$' . $row['atributo5'] . '</td>'
 								. '<td>' . $row['atributo16'] . '</td>'
+								. '<td><a href="ver-tour.php?nid=' . $row['id_tour'] . '" target="_blank" style="color:orange; text-decoration:none;"><img src="img/ver.png" title="Ver"></a></td>'
 								. '<td><a href="cpanel.php?categ=2&mu=' . $row['id_tour'] . '" style="color:orange; text-decoration:none;"><img src="img/edit.png" title="Modificar"></a></td>'
 								. '<td><a href="cpanel.php?categ=2&eu=' . $row['id_tour'] . '" style="color:red; text-decoration:none;"><img src="img/trash.png" title="Eliminar"></a></td>'
 								. '</tr>';
