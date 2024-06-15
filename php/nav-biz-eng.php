@@ -17,6 +17,7 @@
 			<li><a href="index_eng.php#cd-placeholder-4"><b>Reservations</b></a></li>
 			<li><a href="index_eng.php#cd-placeholder-5"><b>News</b></a></li>
 			<li><a href="index_eng.php#cd-placeholder-6"><b>Links</b></a></li>
+			<li><a href="personalized-news.php"><b>Personalized</b></a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="contacto_eng.php" class="cd-btn tf-btn color">Contact Us</a></li>

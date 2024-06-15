@@ -17,6 +17,7 @@
 			<li><a href="index.php#cd-placeholder-4"><b>Reservas</b></a></li>
 			<li><a href="index.php#cd-placeholder-5"><b>Novedades</b></a></li>
 			<li><a href="index.php#cd-placeholder-6"><b>Links</b></a></li>
+			<li><a href="novedades-personalizadas.php"><b>Personalizados</b></a></li>
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="contacto.php" class="cd-btn tf-btn color">Contáctenos</a></li>

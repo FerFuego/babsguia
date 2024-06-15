@@ -35,4 +35,10 @@
 			<span></span><!-- icon -->
 		</a>
 	</li>
+	<li>
+		<a href="novedades-personalizadas.php">
+			<b>Personalizados</b>
+			<span></span><!-- icon -->
+		</a>
+	</li>
 </ul>
