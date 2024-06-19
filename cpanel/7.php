@@ -118,7 +118,7 @@ if (isset($_GET['new'])) {
 									<li>Para copiar el link debe ir al video, al boton de compartir, luego al boton </> insertar y seleccionar el src del link dentro del codigo que aparece en pantalla. <a href="img/ejemplo-youtube.png" target="_blank">Ver imagen de ejemplo</a></li>
 								</ul>
 								</p>
-								<input type='text' name='video' required class="form-control" value="<?php print $video ?>" /><br>
+								<input type='text' name='video' class="form-control" value="<?php print $video ?>" /><br>
 
 								<label>Texto Artículo</label><br>
 								<p>USO:
@@ -418,7 +418,7 @@ if (isset($_GET['new'])) {
 								. '<td>' . $row['atributo2'] . '</td>'
 								. '<td><a href="ver-nuevo.php?nid=' . $row['id_nuevo'] . '" target="_blank" style="color:orange; text-decoration:none;"><img src="img/ver.png" title="Ver"></a></td>'
 								. '<td><a href="cpanel.php?categ=7&new=' . $row['id_nuevo'] . '" style="color:orange; text-decoration:none;"><img src="img/edit.png" title="Modificar"></a></td>'
-								. '<td><a href="cpanel.php?categ=7&new=' . $row['id_nuevo'] . '" style="color:red; text-decoration:none;"><img src="img/trash.png" title="Eliminar"></a></td>'
+								. '<td><a href="cpanel.php?categ=7&ee=' . $row['id_nuevo'] . '" style="color:red; text-decoration:none;"><img src="img/trash.png" title="Eliminar"></a></td>'
 								. '</tr>';
 						}
 						print '</table>';
