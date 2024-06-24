@@ -160,7 +160,7 @@ We organize private tours (with or without transportation ) that make interestin
 		                            <li role="presentation"> <!-- feature tab menu #4 -->
 		                                <a href="tours_eng.php" class="fijo_estilo_tours" aria-controls="f4">
 		                                    <span class="fa fa-cubes"></span>
-		                                     SEE OUR PRIVATE TOURS<br><small>ver nuestros tours privados</small>
+		                                     SEE OUR PRIVATE TOURS AND MORE<br><small>ver nuestros tours privados y más</small>
 		                                </a>
 		                            </li>
 									<li role="presentation"> <!-- feature tab menu #4 -->

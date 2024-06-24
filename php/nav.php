@@ -7,7 +7,7 @@
 	</li>
 	<li>
 		<a href="tours.php">
-			<b>Tours</b>
+			<b>Tours Y más</b>
 			<span></span><!-- icon -->
 		</a>
 	</li>

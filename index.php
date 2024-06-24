@@ -160,7 +160,7 @@ require_once("cpanel/class-cadena.php");
 		                            <li role="presentation"> <!-- feature tab menu #4 -->
 		                                <a href="tours.php" class="fijo_estilo_tours" aria-controls="f4" >
 		                                    <span class="fa fa-cubes"></span>
-		                                     VER NUESTROS TOURS PRIVADOS<br><small>See our private tours</small>
+		                                     VER NUESTROS TOURS PRIVADOS Y MÁS<br><small>See our private tours and more</small>
 		                                </a>
 		                            </li>
 									<li role="presentation"> <!-- feature tab menu #4 -->
@@ -284,7 +284,9 @@ require_once("cpanel/class-cadena.php");
 		        </div>  
 		    </div>
 		</section>
-<br><br>
+		
+		<br><br>
+
 		<section id="cd-placeholder-4" class="cd-section cd-container">
 		    <div id="tf-about">
 		        <div class="container"> 

@@ -309,7 +309,7 @@ ul.metas li a { color: #ED9C28 }
     font-size: 0.8125rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 26px 26px 0px;
+    padding: 26px 20px 0px;
 }
 .navbar-right{margin-right: 55px!important;opacity: 1;}
 .navbar-right li a{
@@ -350,7 +350,7 @@ figure{width: 100%; height: 250px; overflow: hidden;}
 .menu-ulitmos{border-left: 1px solid #ddd;}
 .aclaracion{font-size: 0.8em;}
 .mini-descrip{height: 120px; overflow: hidden;}
-#consultarapida{position: fixed; top:12%; left: 35%; width: 450px!important; background-color: rgb(255,255,255); padding: 15px; border:1px solid #ccc; display: none;}
+#consultarapida{position: fixed; top:12%; left: 0; right: 0; margin: 0 auto; width: 450px!important; background-color: rgb(255,255,255); padding: 15px; border:1px solid #ccc; display: none;}
 #consultarapida  input{width: 100%!important;}
 #consultarapida  textarea{width: 100%!important;}
 .boxclose{cursor: pointer; position: absolute; top: 2px; right: 5px;}
@@ -373,6 +373,9 @@ figure{width: 100%; height: 250px; overflow: hidden;}
 @media (max-width: 768px) {
     .instagram iframe {
         height: 700px;
+    }
+    #consultarapida {
+        width: 90%!important;
     }
 }
 

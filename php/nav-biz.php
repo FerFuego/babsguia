@@ -12,7 +12,7 @@
 		<ul class="nav navbar-nav navbar-biz">
 			<li><a></a></li>
 			<li><a href="index.php#cd-placeholder-1"><b>BABSGUÍA</b></a></li>
-			<li><a href="index.php#cd-placeholder-2"><b>Tours</b></a></li>
+			<li><a href="index.php#cd-placeholder-2"><b>Tours Y más</b></a></li>
 			<li><a href="index.php#cd-placeholder-3"><b>Servicios</b></a></li>
 			<li><a href="index.php#cd-placeholder-4"><b>Reservas</b></a></li>
 			<li><a href="index.php#cd-placeholder-5"><b>Novedades</b></a></li>
